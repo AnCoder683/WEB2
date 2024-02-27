@@ -33,13 +33,12 @@
     flex: auto;
     color: black;
     font-weight: bold;
-    margin-right: 10px;
 }
 .number-group input{
+    flex: 70%;
     padding: 3px 3px;
     border: none;
     border-radius: 3px;
-    flex: 70%;
 }
 .button-group{
     display: flex;
