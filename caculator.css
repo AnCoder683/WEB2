@@ -10,7 +10,6 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0);
 }
 #abc{
     display: grid;
@@ -21,38 +20,45 @@
     color: white;
     border-radius: 20px;
     padding: 20px;
+    row-gap: 6px;
 }
 .number-group{
     display: flex;
     align-items: center;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    padding: 5px;
 }
 .number-group label{
-    /* flex: auto; */
+    flex: auto;
     color: black;
     font-weight: bold;
     margin-right: 10px;
 }
 .number-group input{
+    padding: 3px 3px;
     border: none;
-    border-radius: 2px;
-    flex: 1;
+    border-radius: 3px;
+    flex: 70%;
 }
 .button-group{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
 .button-group button{
-    padding: 3px 20px;
+    padding: 3px 15px;
     line-height: auto;
     size: 14;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 2px;
     background-color: black;
     color: white;
-    transition: color 0.5s;
+    transition: color 0.5s, background-color 0.5s;
     cursor: pointer;
 }
 .button-group button:hover{

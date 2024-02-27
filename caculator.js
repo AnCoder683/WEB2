@@ -6,7 +6,7 @@ document.querySelectorAll('.button-cacl').forEach((button)=>{
         let ketQua = 0;
         if(id === 'plus'){
             ketQua = soA + soB;
-        }else if(id === 'decs'){
+        }else if(id === 'desc'){
             ketQua = soA - soB;
         }else if(id === 'mul'){
             ketQua = soA * soB;
